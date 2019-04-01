@@ -18,20 +18,14 @@ public class Sibice
     	int x[] = new int[n];
 
     	for(int i=0; i<n; i++)
-    	{
     		x[i] = in.nextInt();
-    	}
 
     	for(int i=0; i<n; i++)
     	{
     		if(x[i] <= hyp)
-    		{
     			System.out.println("DA");
-    		}
     		else
-    		{
     			System.out.println("NE");
-    		}
     	}
     }
 }
